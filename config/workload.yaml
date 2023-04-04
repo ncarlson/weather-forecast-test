@@ -16,3 +16,5 @@ spec:
       url: https://github.com/ncarlson/weather-forecast-test.git
       ref:
         branch: main
+  - name: clusterBuilder
+    value: base-jammy
