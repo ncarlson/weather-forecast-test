@@ -5,6 +5,7 @@ metadata:
   labels:
     apps.tanzu.vmware.com/workload-type: web
     app.kubernetes.io/part-of: my-weatherforecast-csharp
+  namespace: my-apps
 spec:
   params:
   - name: annotations
