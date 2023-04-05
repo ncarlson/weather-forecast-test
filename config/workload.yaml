@@ -9,7 +9,7 @@ metadata:
 spec:
   params:
   - name: clusterBuilder
-    value: base
+    value: my-builder
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
