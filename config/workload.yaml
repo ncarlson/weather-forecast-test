@@ -8,6 +8,8 @@ metadata:
   namespace: my-apps
 spec:
   params:
+  - name: clusterBuilder
+    value: my-builder
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
@@ -16,5 +18,3 @@ spec:
       url: https://github.com/ncarlson/weather-forecast-test.git
       ref:
         branch: main
-  - name: clusterBuilder
-    value: base
